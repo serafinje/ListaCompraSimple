@@ -1,0 +1,16 @@
+Version 1.1
+- Removed "test data" button.
+- Added in blue screen filter by mall.
+- Added screen for product price history (invoked by long clicking over a product).
+- Added screen to send feedback. Please use it!
+- Welcome screen with changes in new version (the screen you're watching).
+
+First version
+Welcome to Shop List Simple!
+
+I tried to make this app small & simple, with very few components: 
+- Yellow screen to see current shopping list.
+- Blue screen to manage the whole product list.
+
+Some more things will be added in next versions, but I'll try to keep it simple.
+Your first step now should be clicking on 'Edit shopping list' button to go to blue screen, and start adding things to buy.

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textColor="@android:color/black">
+    <ImageButton 
+    	android:src="@drawable/ic_delete" 
+    	android:layout_weight="0" 
+    	android:id="@+id/btnProductDelete" android:layout_gravity="center_vertical" android:layout_height="32dp" android:layout_width="32dp"/>
+    <ImageButton 
+    	android:src="@drawable/icon_edit" 
+    	android:layout_weight="0" 
+    	android:id="@+id/btnProductEdit" android:layout_height="32dp" android:layout_width="32dp" android:layout_gravity="center_vertical"/>
+    <CheckBox android:id="@+id/listaProductosNombre"
+    		  android:text="@id/listaProductosNombre"
+    		  android:button="@drawable/checkbox_selector"
+			  android:layout_width="wrap_content" 
+    		  android:layout_height="wrap_content"
+              android:layout_weight="1"
+              android:focusable="false" 
+              android:textColor="@android:color/black" 
+              android:layout_gravity="center_vertical"/>
+    <TextView android:id="@+id/listaProductosPrecio"
+    		  android:text="@id/listaProductosPrecio"
+              android:textStyle="italic|bold" 
+              android:textColor="#aa0000"
+              android:layout_width="wrap_content"
+              android:gravity="center_vertical|right"
+              android:layout_gravity="center_vertical|right"
+              android:layout_height="wrap_content" android:paddingRight="10dp"/>
+</LinearLayout>

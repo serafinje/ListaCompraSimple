@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:background="#DDAAAA00">
+	<TextView
+    	android:id="@+id/lblProductName" 
+    	android:layout_width="wrap_content" 
+    	android:layout_height="0dip"
+    	android:text="@string/strNombre"
+    	android:textSize="20sp"
+    	android:layout_weight="0" 
+    	android:textColor="@android:color/black"/>
+    
+    <!--  Linea horizontal aqui -->
+    
+	<LinearLayout
+	  xmlns:android="http://schemas.android.com/apk/res/android"
+	  android:orientation="horizontal"
+	  android:layout_width="fill_parent"
+	  android:layout_height="wrap_content" android:paddingRight="5dp">
+    	<TextView
+	    	android:id="@+id/lblUnitPrice" 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:text="@string/strUnitPrice"
+	    	android:textSize="15sp"
+	    	android:layout_weight="1"
+	    	android:textColor="@android:color/black"/>
+    	<EditText
+	    	android:id="@+id/txtUnitPrice" 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:text="3"
+	    	android:textSize="15sp"
+	    	android:inputType="numberDecimal"
+	    	android:layout_weight="1"
+	    	android:gravity="right"
+	    	android:background="#FFAAAA00" 
+	    	android:paddingRight="5dp"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+	  xmlns:android="http://schemas.android.com/apk/res/android"
+	  android:orientation="horizontal"
+	  android:layout_width="fill_parent"
+	  android:layout_height="wrap_content" android:paddingRight="5dp">
+    	<TextView
+	    	android:id="@+id/lblQuantity" 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:text="@string/strQuantity"
+	    	android:textSize="15sp"
+	    	android:layout_weight="1"
+	    	android:textColor="@android:color/black"/>
+    	<Button 
+    		android:id="@+id/btnCheckoutLess" 
+    		android:layout_height="wrap_content"
+    		android:text="-"
+	    	android:textSize="15sp"
+    		android:layout_width="wrap_content"/>
+    	<Button 
+    		android:id="@+id/btnCheckoutMore" 
+    		android:layout_width="wrap_content" 
+    		android:layout_height="wrap_content"
+    		android:text="+"
+	    	android:textSize="15sp"
+    		android:layout_weight="0"
+    		/>
+    	<EditText
+	    	android:id="@+id/txtQuantity" 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:text="3"
+	    	android:textSize="15sp"
+	    	android:inputType="numberDecimal"
+	    	android:gravity="right"
+	    	android:layout_weight="2" android:background="#FFAAAA00" 
+	    	android:paddingRight="5dp"/>
+	</LinearLayout>
+
+	<LinearLayout
+	  xmlns:android="http://schemas.android.com/apk/res/android"
+	  android:orientation="horizontal"
+	  android:layout_width="fill_parent"
+	  android:layout_height="wrap_content"
+	  android:paddingRight="5dp">
+    	<TextView
+	    	android:id="@+id/lblTotal" 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:text="@string/strTotal"
+	    	android:textSize="15sp"
+	    	android:layout_weight="1"
+	    	android:textColor="@android:color/black"/>
+    	<TextView
+	    	android:id="@+id/txtTotal" 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:text="6"
+	    	android:textSize="15sp"
+	    	android:textColor="@android:color/black"
+	    	android:layout_weight="1"
+	    	android:gravity="right" 
+	    	android:paddingRight="5dp"/>
+	</LinearLayout>
+
+
+    <!--  Linea horizontal aqui -->
+
+	<LinearLayout
+	  xmlns:android="http://schemas.android.com/apk/res/android"
+	  android:orientation="horizontal"
+	  android:layout_width="fill_parent"
+	  android:layout_height="wrap_content"
+	  android:layout_gravity="right"
+	  android:gravity="right"
+	  android:paddingRight="5dp">
+    	<Button 
+    		android:id="@+id/btnCheckoutCancel" 
+    		android:layout_width="wrap_content" 
+    		android:layout_height="wrap_content"
+    		android:text="@string/strCancel"
+	    	android:textSize="15sp"
+    		android:layout_weight="0"/>
+	   	<Button 
+   			android:id="@+id/btnCheckoutAccept" 
+   			android:layout_width="wrap_content" 
+   			android:layout_height="wrap_content"
+   			android:text="@string/strAccept"
+	    	android:textSize="15sp"
+   			android:layout_weight="0"
+   			/>	  
+	</LinearLayout>	
+</LinearLayout>

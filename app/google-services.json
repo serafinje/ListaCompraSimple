@@ -1,0 +1,50 @@
+{
+  "project_info": {
+    "project_number": "535765442007",
+    "firebase_url": "https://lista-compra-simple.firebaseio.com",
+    "project_id": "lista-compra-simple",
+    "storage_bucket": "lista-compra-simple.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:535765442007:android:8d5e46a90f0e52e7",
+        "android_client_info": {
+          "package_name": "com.sera.android.shoplist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "535765442007-hs8ff0s33ils82tofkcs23no23m4vift.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sera.android.shoplist",
+            "certificate_hash": "e8363a34e0d28fe0d141a2c63e3463d2430eede2"
+          }
+        },
+        {
+          "client_id": "535765442007-0urrmo611a1fcr25i7r07thvfqpi3s08.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjRZ-MJRN1XMpcejP2B5z7_MHkt0fFLAo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

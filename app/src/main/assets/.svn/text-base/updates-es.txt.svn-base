@@ -1,0 +1,27 @@
+Version 1.3
+- Añadido formateo de moneda donde corresponda.
+- En la ventana de comprar, ahora se ve qué compras.
+- Corregidos algunos bugs.
+- El teclado se oculta cuando ya no es necesario.
+- Escaneo de códigos de barras
+
+Version 1.2
+- Arreglado bug en filtro de tiendas
+- Si creamos un producto con el filtro puesto, nos pone automáticamente la tienda.
+
+
+Version 1.1
+- Eliminado botón de insertar datos de prueba.
+- Añadido en pantalla azul componente para filtrar por super.
+- Añadida pantalla de histórico de precios de un producto (invocado mediante pulsación larga sobre el producto).
+- Añadida pantalla para enviar por correo consultas/sugerencias/críticas (¡Úsala!).
+- Nueva pantalla con los cambios en la nueva versión (la pantalla que estás viendo).
+
+Version Inicial
+¡Bienvenido a Lista Compra Simple!
+
+El funcionamiento es lo más sencillo posible:
+- Pantalla amarilla para llevar la lista de la compra actual.
+- Pantalla azul para mantener la lista completa de productos.
+
+El primer paso ahora será pulsar el botón 'Modificar lista' para ir a la pantalla azul, y comenzar a añadir productos.

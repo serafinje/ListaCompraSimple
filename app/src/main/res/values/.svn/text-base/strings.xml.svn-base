@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_package_name">com.sera.android.shoplist</string>
+    <string name="app_name">SimpleShoplist</string>
+    <string name="strSelectProductListTitle">Select products to buy</string>
+    <string name="strSelectProductListQuickSelect">Product&#8230;</string>
+    <string name="strSelectProductListQuickShop">All</string>
+    <string name="strCheckOut">Buy</string>
+    <string name="strGuardar">Save</string>
+    <string name="strNombre">Name</string>
+    <string name="strPrecio">Price</string>
+    <string name="strBarcode">Barcode</string>
+    <string name="strShop">Shop</string>
+    <string name="strConfirmaBorrado">Delete</string>
+    <string name="strSi">Yes</string>
+    <string name="strNo">No</string>
+    <string name="strDone">Done</string>
+    <string name="strEditList">Edit list</string>
+    <string name="strEditListTitle">Edit shopping list</string>
+    <string name="strUpdatedSL">Shopping list has been updated</string>
+    <string name="strNewProductTitle">New product</string>
+    <string name="strEditProductTitle">Edit product</string>
+    <string name="strCrearProducto">Create new</string>
+    <string name="strCompraActual">Current:</string>
+    <string name="strCompraTotal">Total:</string>
+    <string name="strScan">Scan barcode</string>
+    <string name="strUnitPrice">Unit price:</string>
+    <string name="strQuantity">Quantity:</string>
+    <string name="strTotal">Total:</string>
+    <string name="strCancel">Cancel</string>
+    <string name="strAccept">OK</string>
+    <string name="strBarcodeInstallTitle">Install Barcode Scanner?</string>
+    <string name="strBarcodeInstallMessage">This application requires Barcode Scanner. Would you like to install it?</string>
+    <string name="strMenuDatosEjemplo">Test Data</string>
+	<string name="strMenuUncheckAll">Uncheck all</string>
+	<string name="strMenuRemoveSelected">Remove selected products</string>
+    <string name="strEditar">Edit</string>
+    <string name="strBorrar">Delete</string>
+    <string name="strProductHistory">Price history (beta)</string>
+	<string name="strUpdates">Updates</string>  
+	<string name="strUpdatesMsg">I hope you find this app useful, and please email me any suggestion/criticism!</string>
+	<string name="strBack">Back</string>
+	
+	<string name="strRate">Rate/comment</string>
+	<string name="strFeedback">Contact me!</string>
+	<string name="strFeedbackScore">How good do you consider this app?</string>
+	<string name="strFeedbackScore1">Total crap! Removing it now forever!</string>
+	<string name="strFeedbackScore2">Sorry man, not for me</string>
+	<string name="strFeedbackScore3">There are better apps out there.</string>
+	<string name="strFeedbackScore4">Quite useful.</string>
+	<string name="strFeedbackScore5">I love it!</string>
+	<string name="strFeedbackSuggestions">Anything you want to tell me?</string>
+	<string name="strFeedbackBtnSend">That\'s all, send email!</string>
+
+		<string name="strVersion1.2">Changes in version 1.2:\n
+- When creating a product with shop filter selected, it\'s used in the field.\n
+- Added currency format in some places (some more pending).\n
+- Checkout screen shows what we\'re putting in cart.\n
+- Keyboard hides when you don\'t need it (most of the time).\n
+- Barcode scanning to add and buy products.\n
+- Fixed some bugs.
+	</string>
+	
+	<string name="strVersion1.1">Changes in version 1.1:\n
+- Removed "test data" button.\n
+- Added in blue screen filter by mall.\n
+- Added screen for product price history (invoked by long clicking over a product).\n
+- Added screen to send feedback. Please use it!\n
+- Welcome screen with changes in new version (the screen you\'re watching).
+	</string>
+
+	<string name="strVersion1.0">Welcome to Shop List Simple!\n
+\n
+I tried to make this app small &amp; simple, with very few components:\n 
+- Yellow screen to see current shopping list.\n
+- Blue screen to manage the whole product list.\n
+\n
+Some more things will be added in next versions, but I\'ll try to keep it simple.\n
+Your first step now should be clicking on \'Edit shoppling list\' button to go to blue screen, and start adding things to buy. 
+	</string>
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lista Compra Simple</string>
+    <string name="strSelectProductListTitle">Elegir productos para comprar</string>
+    <string name="strSelectProductListQuickSelect">Producto&#8230;</string>
+    <string name="strSelectProductListQuickShop">Todos</string>
+    <string name="strCheckOut">Comprar</string>
+    <string name="strGuardar">Guardar</string>
+    <string name="strNombre">Nombre</string>
+    <string name="strPrecio">Precio</string>
+    <string name="strBarcode">Código de barras</string>
+    <string name="strShop">Super</string>
+    <string name="strConfirmaBorrado">Borrar</string>
+    <string name="strSi">Sí</string>
+    <string name="strNo">No</string>
+    <string name="strDone">Listo</string>
+    <string name="strEditList">Modificar lista</string>
+    <string name="strUpdatedSL">Actualizada lista de la compra</string>
+    <string name="strNewProductTitle">Nuevo producto</string>
+    <string name="strEditProductTitle">Editar producto</string>
+    <string name="strCrearProducto">Crear nuevo</string>
+    <string name="strCompraActual">Cesta:</string>
+    <string name="strCompraTotal">Compra total:</string>
+    <string name="strScan">Leer código de barras</string>
+    <string name="strUnitPrice">Precio unidad:</string>
+    <string name="strQuantity">Cantidad:</string>
+    <string name="strTotal">Total:</string>
+    <string name="strCancel">Cancelar</string>
+    <string name="strAccept">Aceptar</string>
+    <string name="strBarcodeInstallTitle">¿Instalar Barcode Scanner?</string>
+    <string name="strBarcodeInstallMessage">Esta funcionalidad requiere Barcode Scanner. ¿Quieres instalarlo?</string>
+    <string name="strMenuDatosEjemplo">Datos Ejemplo</string>
+	<string name="strMenuUncheckAll">Desmarcar todos</string>
+	<string name="strMenuRemoveSelected">Borrar productos seleccionados</string>
+    <string name="strEditar">Editar</string>
+    <string name="strBorrar">Borrar</string>
+	<string name="strProductHistory">Histórico de precios</string>
+	<string name="strUpdates">Novedades</string>
+	<string name="strUpdatesMsg">Espero que el programa te resulte útil, y no dudes en contactar conmigo para cualquier sugerencia o crítica.</string>
+	<string name="strBack">Volver</string>
+		
+	<string name="strRate">Puntuar/comentar</string>
+	<string name="strFeedback">¡Envíame un correo!</string>
+	<string name="strFeedbackScore">¿Qué puntuación le darías?</string>
+	<string name="strFeedbackScore1">¡Malísima! ¡Me la desinstalo ya mismo!</string>
+	<string name="strFeedbackScore2">Lo siento, no es para mí.</string>
+	<string name="strFeedbackScore3">Las hay mejores.</string>
+	<string name="strFeedbackScore4">Bastante útil.</string>
+	<string name="strFeedbackScore5">¡Me encanta!</string>
+	<string name="strFeedbackSuggestions">¿Alguna cosa que me quieras decir?</string>
+	<string name="strFeedbackBtnSend">¡Es todo, ahí te va un correo!</string>	
+
+	<string name="strVersion1.2">Cambios en versión 1.2:\n
+- Al crear un producto teniendo filtro por tienda, la usa.\n
+- Añadido formato moneda en algunos sitios (faltan otros).\n
+- Diálogo para comprar producto nos dice qué producto es.\n
+- El teclado se oculta cuando no lo necesitas (o debería).\n
+- Escaneo de códigos de barras para añadir y comprar productos.\n
+- Corregidos varios bugs.
+	</string>
+	
+	<string name="strVersion1.1">Cambios en versión 1.1:\n
+- Eliminado botón de insertar datos de prueba.\n
+- Añadido en pantalla azul componente para filtrar por super.\n
+- Añadida pantalla de histórico de precios de un producto (invocado mediante pulsación larga sobre el producto).\n
+- Añadida pantalla para enviar por correo consultas/sugerencias/críticas (¡Úsala!).\n
+- Nueva pantalla con los cambios en la nueva versión (la pantalla que estás viendo).
+	</string>
+	
+	<string name="strVersion1.0">¡Bienvenido a Lista Compra Simple!\n
+\n
+El funcionamiento es lo más sencillo posible:\n
+- Pantalla amarilla para llevar la lista de la compra actual.\n
+- Pantalla azul para mantener la lista completa de productos.\n
+\n
+El primer paso ahora será pulsar el botón \'Modificar lista\' para ir a la pantalla azul, y comenzar a añadir productos.
+	</string>
+</resources>

@@ -1,0 +1,58 @@
+10
+
+dir
+87
+http://serafinje.unfuddle.com/svn/serafinje_android/ListaCompra/res
+http://serafinje.unfuddle.com/svn/serafinje_android
+
+
+
+2012-04-09T07:35:14.493460Z
+75
+serafinje
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+d3119190-716e-454e-8137-5c6364c86ddd
+
+drawable
+dir
+
+drawable-hdpi
+dir
+
+drawable-ldpi
+dir
+
+drawable-mdpi
+dir
+
+layout
+dir
+
+layout-small
+dir
+
+menu
+dir
+
+values
+dir
+
+values-es
+dir
+
+xml
+dir
+

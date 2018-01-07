@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="1"
+    android:background="#DD000099">
+    <TableLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TableRow android:layout_height="wrap_content" android:layout_width="fill_parent">
+		    <TextView
+			    android:text="@string/strNombre" 
+		    	android:textColor="@android:color/primary_text_dark"
+	    		android:lines="1" 
+	    		android:maxLines="1" 
+	    		android:layout_width="fill_parent"
+	    		android:layout_height="wrap_content"
+	    		android:layout_gravity="top"/>
+		    <EditText  android:id="@+id/newProduct_Nombre"
+	    		android:layout_width="fill_parent" 
+	    		android:layout_height="wrap_content"
+	    		android:layout_gravity="top"
+	    		android:layout_weight="1"
+	    		android:maxLines="1"
+	    		android:inputType="textCapSentences"
+	    		/>
+        </TableRow>
+        <TableRow android:layout_height="wrap_content" android:layout_width="fill_parent">
+			<TextView
+		    	android:text="@string/strPrecio" 
+		    	android:textColor="@android:color/primary_text_dark"
+	    		android:lines="1" 
+	    		android:maxLines="1" 
+	    		android:layout_width="wrap_content"
+	    		android:layout_height="wrap_content"  
+	    		android:layout_gravity="top"/>
+	    	<EditText  android:id="@+id/newProduct_Precio"
+	    		android:layout_width="wrap_content" 
+	    		android:layout_height="wrap_content"
+	    		android:layout_gravity="top"
+	    		android:layout_weight="1"
+	    		android:maxLines="1"
+	    		android:inputType="numberDecimal"/>
+        </TableRow>
+        <TableRow android:layout_height="wrap_content" android:layout_width="fill_parent">
+			<TextView
+		    	android:text="@string/strBarcode" 
+		    	android:textColor="@android:color/primary_text_dark"
+	    		android:lines="1" 
+	    		android:maxLines="1" 
+	    		android:layout_width="wrap_content"
+	    		android:layout_height="wrap_content"  
+	    		android:layout_gravity="top"/>
+	    	<EditText  android:id="@+id/newProduct_Barcode"
+	    		android:layout_width="wrap_content" 
+	    		android:layout_height="wrap_content"
+	    		android:layout_gravity="top"
+	    		android:layout_weight="1"
+	    		android:maxLines="1"
+	    		android:inputType="numberDecimal"/>
+	    	<ImageButton
+    			android:src="@android:drawable/ic_menu_camera"
+    			android:contentDescription="@string/strBarcode" 
+			    android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:id="@+id/btnScan"
+    			android:clickable="true"
+    			android:background="@null" />
+        </TableRow>
+        <TableRow android:layout_height="wrap_content" android:layout_width="fill_parent">
+		    <TextView
+		    	android:text="@string/strShop" 
+		    	android:textColor="@android:color/primary_text_dark"
+	    		android:lines="1" 
+	    		android:maxLines="1" 
+	    		android:layout_width="fill_parent"
+	    		android:layout_height="wrap_content"  
+	    		android:layout_gravity="top"/>
+		    <AutoCompleteTextView  android:id="@+id/newProduct_Shop"
+	    		android:layout_width="fill_parent" 
+	    		android:layout_height="wrap_content"
+	    		android:layout_gravity="top"
+	    		android:layout_weight="1"
+	    		android:maxLines="1"
+	    		android:inputType="textCapWords"
+	    		/>
+        </TableRow>
+        <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:gravity="right">
+		   	<Button 
+		   		android:id="@+id/btnNewProduct_Cancel" 
+		   		android:layout_width="wrap_content" 
+		   		android:layout_height="wrap_content"
+		   		android:text="@string/strCancel"/>
+		   	<Button 
+		   		android:id="@+id/btnNewProduct_Crear" 
+		   		android:layout_width="wrap_content" 
+		   		android:layout_height="wrap_content"
+		   		android:text="@string/strCrearProducto"/>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

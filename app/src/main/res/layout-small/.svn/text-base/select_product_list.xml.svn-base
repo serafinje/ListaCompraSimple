@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_height="fill_parent" 
+    android:layout_width="fill_parent" 
+    android:orientation="vertical">
+    <LinearLayout 
+		android:layout_width="fill_parent"
+   		android:layout_height="1dp" android:visibility="invisible" >
+	   	<AutoCompleteTextView android:id="@+id/txtQuickSelectProduct" 
+	    	android:text="@string/strSelectProductListQuickSelect" 
+	    	android:textColor="@android:color/darker_gray"
+	   		android:lines="1" 
+	   		android:maxLines="1" 
+	   		android:layout_height="wrap_content"
+	   		android:layout_width="0px"
+	   		android:layout_weight="1"/>
+
+	   	<Spinner
+	   	    android:id="@+id/spnMarkets"
+	   	    android:layout_height="wrap_content" 
+	   		android:layout_width="0px"
+	   	    android:layout_weight="1" android:padding="0px" android:layout_margin="1px"/>
+    </LinearLayout>
+    
+	<ListView
+		android:id="@android:id/list"
+	    android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:drawSelectorOnTop="false"
+		android:background="@drawable/selectproductlist"
+		android:cacheColorHint="#00000000" 
+		/>
+  	<com.google.ads.AdView 
+  		android:id="@+id/adView"
+		android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adUnitId="a14f0c96f235271"
+		ads:adSize="BANNER"
+        ads:testDevices="TEST_EMULATOR"
+        ads:loadAdOnCreate="true"/>
+	<LinearLayout 
+		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"
+		android:gravity="bottom|right"
+   		android:layout_weight="0" >
+    	
+		<Button 
+			android:id="@+id/btnAdd" 
+			android:text="@string/strCrearProducto" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			/>
+		<Button 
+			android:id="@+id/btnDone" 
+			android:text="@string/strDone" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			/>
+	</LinearLayout>
+</LinearLayout>
